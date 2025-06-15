@@ -1,0 +1,96 @@
+path: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\TrafficSignDetection.v9
+train: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\TrafficSignDetection.v9\train\images
+val: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\TrafficSignDetection.v9\valid\images
+test: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\TrafficSignDetection.v9\test\images
+
+names:
+  0: Children
+  1: Entering city
+  2: Exiting city
+  3: Falling rocks
+  4: Fog
+  5: Give way
+  6: Ice or snow
+  7: Intersection with priority
+  8: Intersection without priority
+  9: Level crossing -multiple tracks-
+  10: Level crossing 160m
+  11: Level crossing 240m
+  12: Level crossing 80m
+  13: Level crossing with barriers ahead
+  14: Level crossing without barriers ahead
+  15: Level crossing
+  16: Loose surface material
+  17: Low-flying aircraft
+  18: No heavy goods vehicles
+  19: No left turn
+  20: No overtaking by heavy goods vehicles
+  21: No right turn
+  22: No vehicles carrying dangerous goods
+  23: No vehicles
+  24: One-way street
+  25: Opening bridge
+  26: Parking zone
+  27: Pedestrian crossing
+  28: Pedestrians
+  29: Priority over oncoming traffic
+  30: Right curve
+  31: Road narrows
+  32: Roadworks
+  33: Series of curves
+  34: Slippery surface
+  35: Soft verges
+  36: Steep ascent
+  37: Steep descent
+  38: Traffic queues
+  39: Traffic signals
+  40: Trams
+  41: Tunnel
+  42: Two-way traffic
+  43: Unprotected quayside or riverbank
+  44: Wild animals
+  45: ahead only
+  46: ahead or right
+  47: bumpy road
+  48: crosswalk
+  49: do_not_enter
+  50: end ofSpeed limit 70
+  51: general caution
+  52: keep right
+  53: left curve
+  54: no admittance
+  55: no overtakes
+  56: no stopping
+  57: no_parking
+  58: priority road
+  59: road work
+  60: roundabout
+  61: slippery road
+  62: speed limit -100-
+  63: speed limit -110-
+  64: speed limit -120-
+  65: speed limit -130-
+  66: speed limit -20-
+  67: speed limit -30-
+  68: speed limit -40-
+  69: speed limit -5-
+  70: speed limit -50-
+  71: speed limit -60-
+  72: speed limit -70-
+  73: speed limit -80-
+  74: speed limit -90-
+  75: stop
+  76: traffic light- green
+  77: traffic light- red
+  78: trafic light- red
+  79: turn left orright only
+  80: turn right only
+  81: yellow
+  82: yield
+
+roboflow:
+  workspace: trafficsign-bzwfa
+  project: trafficsigndetection-vwdix
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trafficsign-bzwfa/trafficsigndetection-vwdix/dataset/9
