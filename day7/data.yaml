@@ -1,0 +1,10 @@
+path: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\dataset
+train: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\dataset\images\train
+val: C:\Users\hyxhyx\Desktop\Practice\project\YOLO\ultralytics\dataset\images\val
+test:
+
+
+names:
+  0: apple
+  1: banana
+  2: orange
